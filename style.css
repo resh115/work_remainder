@@ -45,9 +45,40 @@ body {
     padding: 20px;
     justify-content: center;
 }
+@media (max-width: 600px) {
+    #add {
+        width: 60px;
+        height: 60px;
+        font-size: 40px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .box {
+        width: 90%;           
+        padding: 15px;
+    }
+
+    .container {
+        flex: 1 1 100%;       
+        max-width: 100%;
+    }
+}
+.assignments {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container h2 {
+    font-size: 1.2rem;  
+}
+.container p {
+    font-size: 0.9rem;
+}
 
 .container {
-    width: 300px;
+    flex: 1 1 250px; 
+    max-width: 300px;      
+    min-width: 200px;
     padding: 20px;
     border-radius: 20px;
     color: white;
