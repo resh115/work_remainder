@@ -1,0 +1,136 @@
+body {
+    font-family: 'Google Sans', sans-serif;
+    background: linear-gradient(to right, #eacaf7 , #d7acea);
+    margin: 0;
+    padding: 0;
+}
+.navbar h1, .container h2 {
+    font-family: 'BBH Hegarty', sans-serif;
+    font-weight: 400; /* regular */
+}
+.navbar {
+    background-color:#ac63ce;
+    padding: 15px 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#add {
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: linear-gradient(to right,#bd78de,#21b1c7);
+    border-radius: 50%;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#add:hover {
+    transform: scale(1.2);
+    box-shadow: 0 5px 15px rgb(37, 31, 31);
+}
+
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(to left,#bd78de,#21b1c7);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.container h2 {
+    margin: 0 0 10px 0;
+}
+
+.container p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.close {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.close:hover {
+    background-color: #444;
+}
+
+.overlay {
+    display: none;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    z-index: 1;
+}
+
+.box {
+    display: none;
+    width: 500px;
+    background: linear-gradient(to right,#f0f8ff, #add8e6, #afdceb);
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.box input, .box textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.ovbt {
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+}
+
+.ovbt:hover {
+    background-color: #333;
+}

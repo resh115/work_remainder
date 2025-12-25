@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Assignment Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <button id="add">+</button>
+    <div class="navbar">
+        <h1>Assignment Tracker</h1>
+    </div>
+    <div class="assignments">
+    </div>
+    <div class="overlay"></div>
+    <div class="box">
+        <h3>New Assignment</h3>
+        <hr>
+        <label>Assignment Name:</label>
+        <input id="name" type="text" placeholder="Enter assignment name">
+        <hr>
+        <label>Subject:</label>
+        <input id="subject" type="text" placeholder="Enter subject">
+        <hr>
+        <label>Due Date:</label>
+        <input id="duedate" type="date">
+        <hr>
+        <label>Details:</label>
+        <textarea id="details" placeholder="Enter assignment details"></textarea>
+        <hr>
+        <button class="ovbt" id="addAssignment">ADD</button>
+        <button class="ovbt" id="closeBox">CANCEL</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
