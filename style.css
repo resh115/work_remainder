@@ -77,7 +77,8 @@ body {
 
 .container {
     flex: 1 1 250px; 
-    width: 150px;
+    max-width: 300px;  
+    min-width: 200px;
     padding: 20px;
     border-radius: 20px;
     color: white;
@@ -128,7 +129,7 @@ body {
 
 .box {
     display: none;
-    width: 500px;
+    width: 200px;
     background: linear-gradient(to right,#f0f8ff, #add8e6, #afdceb);
     position: fixed;
     top: 30px;
