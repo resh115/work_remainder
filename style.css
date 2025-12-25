@@ -129,7 +129,7 @@ body {
 
 .box {
     display: none;
-    width: 200px;
+    width: 300px;
     background: linear-gradient(to right,#f0f8ff, #add8e6, #afdceb);
     position: fixed;
     top: 30px;
@@ -165,4 +165,5 @@ body {
 .ovbt:hover {
     background-color: #333;
 }
+
 
